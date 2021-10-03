@@ -1,0 +1,212 @@
+h4{
+    font-family: 'Lobster', cursive;
+    color:white;
+    font-size: 35px;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline;
+        
+        
+}
+
+#score-board{
+  
+    background-color: #343434;
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top:-10px;
+    height: 100px;
+
+
+}
+
+#pl1_s{
+    font-family: 'Pacifico', cursive;
+    color:white;
+    font-size: 33px;
+    display: inline;
+    
+
+}
+#pl2_s{
+    font-family: 'Pacifico', cursive;
+    color:white;
+    font-size: 33px;
+    display: inline;
+    
+
+}
+
+h5{
+    font-family: 'Pacifico', cursive;
+    color:white;
+    font-size: 50px;
+    margin-left: 95px;
+  
+}
+h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 90px;
+    margin-top: -150px;
+    
+}
+#questioner{
+    font-family: 'Satisfy', cursive; 
+    font-size: 45px; 
+    display: inline; 
+}
+#answerer{
+    font-family: 'Satisfy', cursive; 
+    font-size: 45px;
+    display: inline;  
+}
+#question{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px; 
+    display: inline; 
+}
+#answer{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    display: inline;  
+}
+body{
+    background-color: white;
+
+    background-image: url("https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg")
+    
+    ;
+    background-size:cover ;   
+}
+
+#output{
+ background-color: white; 
+
+ width: 70%;
+ border-radius: 20px;
+ border-top: #5400a3 20px solid;
+ padding: 30px;
+ margin-top: 10px;
+ margin-bottom: 45px;
+ text-align: left;
+}
+
+#pl2_inp{
+    background-color: transparent;
+    border-radius: 15px;
+    height: 35px;
+    width:800px;
+    color:white;
+    font-family: 'Satisfy', cursive;
+    border: 3px black solid;
+    padding: 5px;
+    font-size: 23px;}
+
+    #div_p2{
+        font-family: 'Pacifico', cursive;
+        color:white;
+        font-size: 30px; 
+        margin-bottom: -10px;
+          
+    }
+    #pl1_inp{
+        background-color: transparent;
+        border-radius: 15px;
+        height: 35px;
+        width:800px;
+        color:white;
+        font-family: 'Satisfy', cursive;
+        border: 3px black solid;
+        padding: 5px;
+        font-size: 23px;
+        margin-bottom: 30px; 
+    }
+        #div_p1{
+            font-family: 'Pacifico', cursive;
+            color:white;
+            font-size: 30px;
+            margin-bottom: -10px;  
+        }
+        #button_submit{
+            background-image:linear-gradient(#6500B0,#4B0082);
+            height: 50px;
+            width: 400px;
+            background-size: cover;
+            border: 3px black solid;
+            border-radius: 5px;
+            font-family: 'Lobster', cursive;
+            font-size: 30px;
+            margin-top: -7px;
+            color:black}
+
+            #button_submit:hover{
+                margin-top: -4px;
+                height: 48px;
+                width: 398px;
+                font-size: 28px;  
+            }
+            #button_submit:active{
+                margin-top: -2px;
+                height: 45px;
+                width: 395px;
+                font-size: 25px;  
+            }
+
+            #pl1_inp::placeholder{
+                color:white
+
+            }
+            #pl2_inp::placeholder{
+                color:white
+
+            }
+
+            #question_t{
+                font-family: 'Lobster', Cursive;
+                font-size: 35px;
+            }
+            #answer_inp{
+                border-radius: 50px;
+                background-color: transparent;
+                font-family: 'Pacifico', Cursive;
+                color:black;
+                border: black 3px solid;
+                font-size: 20px;
+                height: 35px;
+                width:250px;
+               
+
+            }
+            #answer_inp::placeholder{
+                color:black;  
+            }
+
+            #button_send{
+              height: 35px;  
+              width: 130px;
+              font-family: 'Satisfy', cursive;
+              font-size: 25px;
+              border: none; 
+              color: white;
+              background-color: #6500B0;
+              border-radius: 50px;
+              margin-top: 18px;
+              margin-bottom: 2px;
+
+            }
+            #button_send:hover{
+                margin-top: 18px;
+                height: 33px;
+                width: 125px;
+                font-size: 23px;
+                margin-bottom: 4px;  
+            }
+            #button_send:active{
+                margin-top: 18px;
+                height: 30px;
+                width: 120px;
+                font-size: 20px;
+                margin-bottom: 7px;  
+            }

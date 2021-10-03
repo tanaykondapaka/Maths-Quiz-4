@@ -1,0 +1,142 @@
+body{
+    background-color: white;
+
+    background-image: url("https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg")
+    
+    ;
+    background-size:cover ;
+    overflow: hidden;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 90px;
+}
+
+#hd_p{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 30px;    
+}
+#div_p1{
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 30px;  
+}
+#div_p2{
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 30px;  
+}
+h2{
+    font-family: 'Lobster', cursive;
+    color:black;
+    font-size: 50px;
+}
+.div_p{
+    font-family: 'Pacifico', cursive;
+    color:black;
+    font-size: 30px;  
+}
+#player1_div{
+    background-image: url("https://wallpaperaccess.com/full/5097448.jpg");
+    background-size: cover;
+    width: 1200px;
+    border-radius: 30px;
+    height: 210px;}
+
+    #player2_div{
+        background-image: url("https://wallpaperaccess.com/full/5097448.jpg");
+        background-size: cover;
+        width: 1200px;
+        border-radius: 30px;
+        height: 210px;    
+
+    
+}
+#pl1_inp{
+    background-color: transparent;
+    border-radius: 15px;
+    height: 35px;
+    width:800px;
+    color:black;
+    font-family: 'Satisfy', cursive;
+    border: 3px black solid;
+    padding: 5px;
+    font-size: 23px;}
+    #pl2_inp{
+        background-color: transparent;
+        border-radius: 15px;
+        height: 35px;
+        width:800px;
+        color:black;
+        font-family: 'Satisfy', cursive;
+        border: 3px black solid;
+        padding: 5px;
+        font-size: 23px;
+}
+::placeholder{
+    color: #222222;
+    opacity: 1;
+    font-family: 'Satisfy', cursive;;
+}
+
+#button_login{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNBwcIBwgGBwcHBg0HCAcHBxAICQgKIBEWFiARHx8YHSggGCYlGxUVITEhJSkrLi4uFx8zODMsNygtOjcBCgoKDQ0NGA0NGisZFRkrKystLSstLSsrLS0rLSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAQAGBf/EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABsBAQEBAQEBAQEAAAAAAAAAAAMBAgAHBQQG/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAECEhH/2gAMAwEAAhEDEQA/ALUJH9ys0FQ0Us0FQkUs0NQkxSzQ1CSqWaBMNFLNAh4ilmgqYSVSzQoSNFmhxCSqWaBDSqWaBKYqWaFCxKpZoWVFJKzMzle+hYj8DziaHEpJVLNDiFUqlmgxDSqWaDEMapZRxCTFLNClJFLNCNOopZoEOopZoEKopZoahVGjTQ1CRSzQiaYpZoKhipZpEJFa9dCOHUfOeazQIdRo00FQkUs0NQkUs0NQkUs0FQ0qlmgQkUs0NQkqlmhSklUs0KUkUs0CU8FSzQpSRSzQ4hVK0WaHEJKpZoWVnN9OgSkj57zWaFKSVSzQpSRSzQIdRos0CUqmKWaFCqOLNDg00aLNAh1FLNBUJMUs0KEmKWaFKVRSzQ0TqKWaBMMVLNDUKopppGXGVr10FE0fPeazQIYqWaGoVSqWaFMJFLNChI0WaBMNK400CFiKWaGphJVLNChI0WaBDRSzQIY1SzQpSRSzQoSVSzQjTRSzQsrK306BCSvnvNZocQkqlmhGmilmgxDFSzQpSRSzQpSqKWaEadRSzQJToqWaFKVRSzQoVRSzQ1CqNFlGiaKWaCoSKWaGoVSqWaFlZW+nQJh0Xz3ms0KFUUs0NQkUs0NQkqlmgqGlUs0FQkqlmhQkUs0KUkU00DUsSqWaBKaKWaBKWIpZoUpVFLNDiFUaLNDiElUs0LKzm+nQJSR895rNClJFLNAlMWizQoVRSzQoSKWaFCTFLNDgnUxSzQJTFSzQ1CqKWaGoSKWaEcOopZoKh0VLNCmEilmhqFUUs0Ksyt9OgqElfPeayimEilmhqElUs0KYSKWaBDxGizQVCSqWaGoSVSzQ1CSqWaFCSqWaBKYqWaHEpJVNNClJKpZoENKpZoEpipZpEJla6dAhVHz3mso4JopZoEpipZocQkxTTQpSRSzQpSqKWaETqNFmgTCqKWaFCqKWaGoSKWaGiaKWaCoYqWaGoSKWaGoSVSzQsrK306BMJHz3ms0KFUUs0NQkqlmhqElUs0FQxqlmhqElUs0KUkUs0KUkUs0CU0aLNAhIpZoUJKpZoUJKpZocE6limmgSmOKWaRlxnNdPfRWfgebilMXNzQpSqNFmhQqilmhQkUs0OCaYpZoEKoppoUJFLNChVFLNCmFUUs0CHUaLNAhVFLNDUJKpZoahJVLNCy4zm+nuszPwvPGZmc5KhJXNygmGilmgQsRos0NQkqlmhqElUs0FQ0qlmgQxqlmhSkilmhSkilmhSkilmgQ6jRZoEJFLNIy4zm+ntMzPxP4JmZnOZmZzkxCTHNSilJFLNAh1FLNAhVGizQoSKWaFCqKWaGidRTTQVDSqWaBMJFLNDUKpVLNCmEilmhZVVrp67Mz8b+IZmZzmZmc5mZnOGtWZSQalZlLERmUsSozKWIjMpoKMykiJVZo0FKzOLlErM0WC1RlLGZmc2//Z");
+    height: 50px;
+    width: 400px;
+    background-size: cover;
+    border: 3px black solid;
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#button_login:hover{
+    margin-top: 23px;
+    height: 48px;
+    width: 398px;
+    font-size: 28px;  
+}
+#button_login:active{
+    margin-top: 25px;
+    height: 45px;
+    width: 395px;
+    font-size: 25px;  
+}
+
+#login_s{
+    background-image: url("https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg");
+    background-size: cover; 
+    height: 100%;
+    width: 100%;  
+    margin-top: -20px;
+}
+#load_s{
+    height: 100%;
+    width: 100%;
+   background-color: white; 
+    
+    
+}
+
+#load_text{
+    color:#880ED4;
+    font-family: 'Lobster', cursive;
+    
+    
+    font-size: 50px;
+    margin-top: -50px
+    }
+    #loading{
+        margin-top: -150px
+    }
+a{
+    color: black;
+}
+a:hover{
+    color: black;  
+}
+a:active{
+    color: black;  
+}
